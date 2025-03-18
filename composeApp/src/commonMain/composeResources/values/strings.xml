@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="app_name">DiffMorph</string>
+    <!--HomeScreen-->
+    <string name="history">History</string>
+    <string name="theme">Theme</string>
+    <!--HomePage-->
+    <string name="get_start">Get Start</string>
+    <string name="image_operation">Image Operation</string>
+    <string name="change_background">Change Background</string>
+    <string name="style_transfer">Style Transfer</string>
+</resources>
