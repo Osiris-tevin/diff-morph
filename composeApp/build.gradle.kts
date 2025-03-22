@@ -62,14 +62,25 @@ kotlin {
             implementation(libs.androidx.lifecycle.runtime.compose)
             // ktor
             implementation(libs.ktor.client.core)
+            implementation(libs.ktor.client.auth)
+            implementation(libs.ktor.client.logging)
             implementation(libs.ktor.client.content.negotiation)
             implementation(libs.ktor.serialization.kotlinx.json)
+            // 基于 ViewModel 更新 UI (viewModel())
+            implementation(libs.lifecycle.viewmodel.compose)
+            // coil
+            implementation(libs.coil.compose)
+            implementation(libs.coil.network.okhttp)
         }
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
             // ktor
-            implementation(libs.kotlinx.coroutines.swing)
             implementation(libs.ktor.client.okhttp)
+            implementation(libs.kotlinx.coroutines.swing)
+        }
+        wasmJsMain.dependencies {
+            // ktor
+            implementation(libs.ktor.client.js)
         }
     }
 }

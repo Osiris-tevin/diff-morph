@@ -6,6 +6,10 @@
     <string name="theme">Theme</string>
     <!--HomePage-->
     <string name="get_start">Get Start</string>
+    <string name="exit">Exit</string>
+    <string name="upload">Upload</string>
+    <string name="preview">Preview</string>
+    <string name="edit">Edit</string>
     <string name="image_operation">Image Operation</string>
     <string name="change_background">Change Background</string>
     <string name="style_transfer">Style Transfer</string>

@@ -88,7 +88,7 @@ private fun Sidebar(isExpanded: Boolean, onToggle: () -> Unit, onThemeChange: ()
                 tint = MaterialTheme.colors.onPrimary
             )
         }
-        Spacer(modifier = Modifier.height(16.dp))
+        Spacer(modifier = Modifier.height(8.dp))
         SidebarItem(
             icon = painterResource(Res.drawable.ic_history_filled),
             title = stringResource(Res.string.history),

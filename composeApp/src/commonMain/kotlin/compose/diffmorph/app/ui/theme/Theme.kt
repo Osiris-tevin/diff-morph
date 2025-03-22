@@ -4,14 +4,12 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
 import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.graphics.Color
 
 object AppColors {
     val LightPrimary = pink100
     val LightSecondary = pink900
     val LightBackground = white
     val LightSurface = white850
-    val LightTertiary = Color(0xFF775930)
     val LightOnPrimary = gray
     val LightOnSecondary = white
     val LightOnBackground = gray
@@ -21,7 +19,6 @@ object AppColors {
     val DarkSecondary = green300
     val DarkBackground = gray
     val DarkSurface = white150
-    val DarkTertiary = Color(0xFFE8C08E)
     val DarkOnPrimary = white
     val DarkOnSecondary = gray
     val DarkOnBackground = white
