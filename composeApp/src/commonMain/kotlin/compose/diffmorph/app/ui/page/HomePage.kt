@@ -117,7 +117,7 @@ private fun HomePageMainContent(imageViewModel: ImageViewModel, onExitClick: () 
         Row(modifier = Modifier.weight(1f)) {
             // EditSection
             Column(modifier = Modifier.weight(1f).fillMaxHeight()) {
-                SectionTitleBar(title = stringResource(Res.string.preview))
+                SectionTitleBar(title = stringResource(Res.string.edit))
                 EditContentSection(imageViewModel)
             }
             VerticalDivider()
