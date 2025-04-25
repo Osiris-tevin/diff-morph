@@ -6,9 +6,11 @@
 
 Related: [diff-morph-torch](https://github.com/Osiris-tevin/diff-morph-torch).
 
+Demo application related to DiffMorph.
+
 ## Run
 
-- Desktop Gradle Run: `compsoeApp: run`
+- Desktop Gradle Run: `composeApp: run`
 
 ## Supported Platform
 
